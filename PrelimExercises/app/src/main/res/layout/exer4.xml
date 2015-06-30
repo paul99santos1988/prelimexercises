@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weather Table"
+            android:textStyle="bold"
+            android:id="@+id/textView15"
+            android:textSize="25dip" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textView16"
+            android:layout_weight=".1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jun 22"
+            android:paddingRight="15dp"
+            android:textStyle="bold"
+            android:id="@+id/textView17" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jun 23"
+            android:paddingRight="15dp"
+            android:textStyle="bold"
+            android:id="@+id/textView18" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jun 24"
+            android:paddingRight="15dp"
+            android:textStyle="bold"
+            android:id="@+id/textView19" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jun 25"
+            android:paddingRight="15dp"
+            android:textStyle="bold"
+            android:id="@+id/textView20" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jun 26"
+            android:paddingRight="5dp"
+            android:textStyle="bold"
+            android:id="@+id/textView21" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day High"
+            android:textStyle="bold"
+            android:id="@+id/textView22"
+            android:layout_weight=".1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="28 F"
+            android:paddingRight="15dp"
+            android:id="@+id/textView23"
+            android:layout_gravity="right" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26 F"
+            android:paddingRight="15dp"
+            android:id="@+id/textView24"
+            android:layout_gravity="right" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23 F"
+            android:paddingRight="15dp"
+            android:id="@+id/textView25"
+            android:layout_gravity="right"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17 F"
+            android:paddingRight="15dp"
+            android:id="@+id/textView26"
+            android:layout_gravity="right"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19 F"
+            android:paddingRight="10dp"
+            android:layout_gravity="right"
+            android:id="@+id/textView27" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day Low"
+            android:textStyle="bold"
+            android:layout_weight=".1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15 F"
+            android:paddingRight="15dp"
+            android:layout_gravity="right" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14 F"
+            android:paddingRight="15dp"
+            android:layout_gravity="right" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 F"
+            android:paddingRight="15dp"
+            android:layout_gravity="right"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 F"
+            android:paddingRight="15dp"
+            android:layout_gravity="right"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6 F"
+            android:paddingRight="10dp"
+            android:layout_gravity="right" />
+    </TableRow>
+
+</TableLayout>

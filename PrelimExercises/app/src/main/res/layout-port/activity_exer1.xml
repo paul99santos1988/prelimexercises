@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".exer1">
+
+    <TextView android:text="@string/red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".14"
+        android:background="@color/red"
+        android:gravity="center"/>
+
+    <TextView android:text="@string/orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".14"
+        android:background="@color/orange"
+        android:gravity="center"/>
+
+    <TextView android:text="@string/yellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".14"
+        android:background="@color/yellow"
+        android:gravity="center"/>
+
+    <TextView android:text="@string/green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".14"
+        android:background="@color/green"
+        android:gravity="center"/>
+
+    <TextView android:text="@string/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".14"
+        android:background="@color/blue"
+        android:gravity="center"/>
+
+    <TextView android:text="@string/indigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".14"
+        android:background="@color/indigo"
+        android:gravity="center"/>
+
+    <TextView android:text="@string/violet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".14"
+        android:background="@color/violet"
+        android:gravity="center"/>
+
+
+</LinearLayout>
